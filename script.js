@@ -1,0 +1,28 @@
+function toggleVideo(){
+
+let video=document.getElementById("wildlifeVideo");
+
+if(video.style.display==="none"){
+
+video.style.display="block";
+video.play();
+
+}
+
+else{
+
+if(video.paused){
+
+video.play();
+
+}
+
+else{
+
+video.style.display="none";
+
+}
+
+}
+
+}
